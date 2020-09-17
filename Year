@@ -1,0 +1,13 @@
+Import java.util.Scanner;
+Public class years
+{
+Public static void main (string args[])
+{
+Scanner sc= new scanner (System.in);
+System.out.println("enter number of mintues");
+Double min= sc.nextDouble():
+Long year=(long)(min/(60*24*365);
+Long days=(long)((min*60*24)%365);
+Sytem.out.println(min+ "aprox is" +year+ "year&" +days+ "days");
+}
+}
